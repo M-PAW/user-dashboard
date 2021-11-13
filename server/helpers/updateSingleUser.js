@@ -15,7 +15,9 @@ const updateSingleUser = ({sessionToken,userData},callback) => {
                         description: userData.description || user.description,
                         profileImage: userData.profileImage || user.profileImage
                     }
-                    userModel.findOneAndUpdate(_id,userUpdate, (err,success) => {
+                    console.log(`update Id: ${_id}`);
+                    userModel.findOneAndUpdate({_id},userUpdate, (err,success) => {
+                        console.log(`updatOne: ${success}`);
                         if (err || !success) {
                             callback(null,false)
                         }
