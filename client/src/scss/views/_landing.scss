@@ -1,0 +1,64 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    h1 {
+        margin-bottom: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        height: 40%;
+        width: 80%;
+        max-width: 500px;
+        max-height: 500px;
+        border: 1px thin white;
+        border-radius: 25px;
+        padding: 10px;
+        box-shadow: 2px 2px 15px rgb(206, 206, 206);
+        h2 {
+            
+            text-align: center;
+            margin-bottom: 8%;
+        }
+        hr {
+            width: 50%;
+            margin: 0 auto 12% auto;
+        }
+        Button {
+            margin: 8px;
+            min-height: 60px;
+        }
+    }
+    @media screen and (min-width: $desktop) {
+        .button-group {
+            flex-direction: row;
+            h2 {
+                flex: 100%;
+                margin-bottom:4%;
+                margin-top: 14%;
+                vertical-align: center;
+            }
+            hr {
+                flex: 60%;
+                margin: 2% 20%;
+            }
+            button {
+                flex: 40%;
+                max-height: 35px;
+            }
+        }
+    }
+}

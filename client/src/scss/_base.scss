@@ -1,0 +1,23 @@
+@import './reset';
+@import './variables';
+@import './views/landing';
+@import './views/register';
+@import './views/login';
+@import './views/dashboard';
+@import './views/users';
+@import './components/userCard';
+@import './views/editProfile';
+@import './components/navbar';
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+
+}
+p {
+    font-size: 1.5rem;
+}
