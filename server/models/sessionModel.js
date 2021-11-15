@@ -8,4 +8,9 @@ const schema = mongoose.Schema({
 
 const model = mongoose.model('Session', schema)
 
+/**
+ * Built By MPAW
+ * https://github.com/M-PAW
+ */
+
 module.exports = model;

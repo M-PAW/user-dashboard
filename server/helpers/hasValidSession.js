@@ -7,4 +7,9 @@ const hasValidSession = (sessionId,callback) => {
     })
 }
 
+/**
+ * Built By MPAW
+ * https://github.com/M-PAW
+ */
+
 module.exports = hasValidSession;

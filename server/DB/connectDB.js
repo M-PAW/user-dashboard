@@ -10,4 +10,9 @@ const connectDB = () => {
     })
 }
 
+/**
+ * Built By MPAW
+ * https://github.com/M-PAW
+ */
+
 module.exports = connectDB;

@@ -72,4 +72,9 @@ const auth = {
     }
 }
 
+/**
+ * Built By MPAW
+ * https://github.com/M-PAW
+ */
+
 module.exports = auth;
